@@ -1,0 +1,60 @@
+* Reset de márgenes y rellenos para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #006400; /* Verde oscuro para el texto */
+}
+
+header {
+    background: #d3ffd3; /* Fondo verde claro */
+    color: #006400; /* Verde oscuro para el texto */
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #006400; /* Verde oscuro para los enlaces */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+footer {
+    background: #d3ffd3; /* Fondo verde claro */
+    color: #006400; /* Verde oscuro para el texto */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
